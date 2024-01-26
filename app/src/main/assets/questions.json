@@ -1,6 +1,6 @@
 [
   {
-    "question": "1.‘Good morning everybody.’",
+    "question": "1.Good morning everybody.",
     "options": [
       "Goodbye.",
       "Hi.",
@@ -10,7 +10,7 @@
     "answer": 1
   },
   {
-  "question": "2. ‘What do you do?’",
+  "question": "2. What do you do?",
     "options": [
       "Not bad.",
       "She is a banker.",
@@ -40,22 +40,22 @@
     "answer": 2
   },
   {
-  "question": "5. ‘How is it going?",
+  "question": "5. How is it going?",
     "options": [
-      " ‘Good evening.’",
-      " ‘You’re welcome.’",
-      "‘See you later.’",
-      "‘Great.’"
+      "Good evening.",
+      "You’re welcome.",
+      "See you later.",
+      "Great."
     ],
     "answer": 3
   },
   {
-  "question": "6. ‘How do you spell your last name?’",
+  "question": "6. How do you spell your last name?",
     "options": [
-      "‘You’re welcome.’",
-      "‘P-O-R-T.’",
-      " ‘Sorry.’",
-      "‘Me too.’"
+      "You’re welcome.",
+      "P-O-R-T.",
+      "Sorry.",
+      "Me too."
     ],
     "answer": 1
   },
@@ -100,7 +100,7 @@
     "answer": 3
   },
   {
-  "question": "11. ‘Where is she?’  ‘………………….. .’",
+  "question": "11. Where is she?  ………………… .",
     "options": [
       "She is right over here.",
       "She works at the bank.",
@@ -110,7 +110,7 @@
     "answer": 0
   },
   {
-  "question": "12. ‘Take care.’   ‘………………… ..’",
+  "question": "12. Take care.   ………………… .",
     "options": [
       "Good morning",
       "Good afternoon",
@@ -120,7 +120,7 @@
     "answer": 2
   },
   {
-  "question": "13. ‘ Thank you.’  ‘………………….. . ‘",
+  "question": "13. Thank you.  ………………… . ",
     "options": [
       "Take care",
       "You’re welcome",
@@ -200,7 +200,7 @@
     "answer": 2
   },
   {
-  "question": "21.  ‘Are you Spanish’  ‘Yes. ……………………… .’",
+  "question": "21.  Are you Spanish  Yes. ……………………… .",
     "options": [
       "they are",
       "she is",
@@ -210,7 +210,7 @@
     "answer": 3
   },
   {
-  "question": "22.  ‘ How ……………….. are you?’ ‘I’m seven.’",
+  "question": "22.  ‘ How ……………….. are you? I’m seven.",
     "options": [
       "from",
       "many",
@@ -250,7 +250,7 @@
     "answer": 1
   },
   {
-  "question": "26. ‘ Can you introduce yourself?’  ‘ Sure, my name is ……………… . ‘",
+  "question": "26. Can you introduce yourself?   Sure, my name is ……………… . ",
     "options": [
       "Michael grant",
       "michael Grant",
@@ -260,7 +260,7 @@
     "answer": 3
   },
   {
-  "question": "27. ‘Where do you live?’   ‘ I live in ………………….. .’",
+  "question": "27. Where do you live?   I live in ………………….. .",
     "options": [
       "New York",
       "New york",
@@ -280,7 +280,7 @@
     "answer": 1
   },
   {
-  "question": "29. ‘ What do you do sir?’  ‘ I’m a ……………. .’",
+  "question": "29. What do you do sir?   I’m a ……………. .",
     "options": [
       "Teacher",
       "teachers",
@@ -290,9 +290,9 @@
     "answer": 2
   },
   {
-  "question": "30. ‘ What is your occupations?’ ‘ We are …………………… .’",
+  "question": "30. What is your occupations?  We are …………………… .",
     "options": [
-      "nurses'",
+      "nurses",
       "nurse",
       "a nurse",
       "nurses"
