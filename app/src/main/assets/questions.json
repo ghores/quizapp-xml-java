@@ -1,0 +1,302 @@
+[
+  {
+    "question": "1.‘Good morning everybody.’",
+    "options": [
+      "‘Goodbye.’",
+      "‘Hi.’",
+      "‘Take care.’",
+      "‘See you tomorrow.’"
+    ],
+    "answer": 1
+  },
+  {
+  "question": "2. ‘What do you do?’",
+    "options": [
+      "Not bad.",
+      "She is a banker.",
+      "You’re welcome.",
+      "I’m an athlete."
+    ],
+    "answer": 3
+  },
+  {
+  "question": "3. The …………………… is selling a lot of flowers today.",
+    "options": [
+      "florist",
+      "gardener",
+      "actor",
+      "architect"
+    ],
+    "answer": 0
+  },
+  {
+  "question": "4. I’d like to be a/an ……………… and work in the laboratory.",
+    "options": [
+      "writer",
+      "engineer",
+      "scientist",
+      "chef"
+    ],
+    "answer": 2
+  },
+  {
+  "question": "5. ‘How is it going?",
+    "options": [
+      " ‘Good evening.’",
+      " ‘You’re welcome.’",
+      "‘See you later.’",
+      "‘Great.’"
+    ],
+    "answer": 3
+  },
+  {
+  "question": "6. ‘How do you spell your last name?’",
+    "options": [
+      "‘You’re welcome.’",
+      "‘P-O-R-T.’",
+      " ‘Sorry.’",
+      "‘Me too.’"
+    ],
+    "answer": 1
+  },
+  {
+  "question": "7. A/An …………… designs the plan of a house.",
+    "options": [
+      "photographer",
+      "doctor",
+      "architect",
+      "engineer"
+    ],
+    "answer": 2
+  },
+  {
+  "question": "8. A/an ………….. works in a restaurant.",
+    "options": [
+      "hairdresser",
+      "gardener",
+      "electrician",
+      "waiter"
+    ],
+    "answer": 3
+  },
+  {
+  "question": "9. Singers and …………………. usually work with music.",
+    "options": [
+      "musicians",
+      "actors",
+      "writers",
+      "managers"
+    ],
+    "answer": 0
+  },
+  {
+  "question": "10. This pen doesn’t write well. Can I have ……………. one please.",
+    "options": [
+      "more",
+      "with",
+      "where",
+      "another"
+    ],
+    "answer": 3
+  },
+  {
+  "question": "11. ‘Where is she?’  ‘………………….. .’",
+    "options": [
+      "She is right over here.",
+      "She works at the bank.",
+      "on Mondays.",
+      "in the morning"
+    ],
+    "answer": 0
+  },
+  {
+  "question": "12. ‘Take care.’   ‘………………… ..’",
+    "options": [
+      "Good morning",
+      "Good afternoon",
+      "Good bye",
+      "me too"
+    ],
+    "answer": 2
+  },
+  {
+  "question": "13. ‘ Thank you.’  ‘………………….. . ‘",
+    "options": [
+      "Take care",
+      "You’re welcome",
+      "Great",
+      "Good evening"
+    ],
+    "answer": 1
+  },
+  {
+  "question": "14.  …………………… can I have another glass of water please?",
+    "options": [
+      "Excuse me.",
+      "Thank you.",
+      "You’re welcome.",
+      "Nice to meet you."
+    ],
+    "answer": 0
+  },
+  {
+  "question": "15. I called the office and the ……………….. answered the phone.",
+    "options": [
+      "electrician",
+      "professor",
+      "flight attendant",
+      "secretary"
+    ],
+    "answer": 3
+  },
+  {
+  "question": "16. My sisters live in Thailand. …………….doctors.",
+    "options": [
+      "She is",
+      "They are",
+      "My sisters",
+      "My sisters is"
+    ],
+    "answer": 1
+  },
+  {
+  "question": "17. New York ………………..in England. ……………………in America.",
+    "options": [
+      "are/ It is",
+      "'s/ It’s",
+      "is/ It’s not",
+      "isn’t/ It is"
+    ],
+    "answer": 3
+  },
+  {
+  "question": "18. My sister is a scientist. ……………………thirty years old.",
+    "options": [
+      "She’s",
+      "They’re",
+      "He is",
+      "He’s"
+    ],
+    "answer": 0
+  },
+  {
+  "question": "19. …………………..seven o’clock. ………………are late.",
+    "options": [
+      "It is/ Sara",
+      "It / They",
+      "It’s/ We",
+      "It’s/  She "
+    ],
+    "answer": 2
+  },
+  {
+  "question": "20. Look at the time. Mike and Sarah ………………….late.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "'re"
+    ],
+    "answer": 2
+  },
+  {
+  "question": "21.  ‘Are you Spanish’  ‘Yes. ……………………… .’",
+    "options": [
+      "they are",
+      "she is",
+      "I’m",
+      "we are"
+    ],
+    "answer": 3
+  },
+  {
+  "question": "22.  ‘ How ……………….. are you?’ ‘I’m seven.’",
+    "options": [
+      "from",
+      "many",
+      "old",
+      "is everything"
+    ],
+    "answer": 2
+  },
+  {
+  "question": "23. What  ………………… your address?",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "'re"
+    ],
+    "answer": 1
+  },
+  {
+  "question": "24. They ……………. from London.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "'s"
+    ],
+    "answer": 2
+  },
+  {
+  "question": "25. They are ……………… and work in this hospital.",
+    "options": [
+      "doctor",
+      "doctors",
+      "scientist",
+      "scientists’"
+    ],
+    "answer": 1
+  },
+  {
+  "question": "26. ‘ Can you introduce yourself?’  ‘ Sure, my name is ……………… . ‘",
+    "options": [
+      "Michael grant",
+      "michael Grant",
+      "A Michael grant",
+      "Michael Grant"
+    ],
+    "answer": 3
+  },
+  {
+  "question": "27. ‘Where do you live?’   ‘ I live in ………………….. .’",
+    "options": [
+      "New York",
+      "New york",
+      "new York",
+      "newYork"
+    ],
+    "answer": 0
+  },
+  {
+  "question": "28. My friend ……………. just a teenager.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "'re"
+    ],
+    "answer": 1
+  },
+  {
+  "question": "29. ‘ What do you do sir?’  ‘ I’m a ……………. .’",
+    "options": [
+      "Teacher",
+      "teachers",
+      "teacher",
+      "Teachers"
+    ],
+    "answer": 2
+  },
+  {
+  "question": "30. ‘ What is your occupations?’ ‘ We are …………………… .’",
+    "options": [
+      "nurses'",
+      "nurse",
+      "a nurse",
+      "nurses"
+    ],
+    "answer": 3
+  }
+]
