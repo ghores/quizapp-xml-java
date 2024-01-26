@@ -54,6 +54,8 @@
     </RelativeLayout>
 
     <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/linear"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/rel_main_toolbar"

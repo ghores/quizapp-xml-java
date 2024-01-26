@@ -11,6 +11,7 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.Locale;
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView option3Button;
     private TextView pointTextView;
     private TextView remainingTimeTextView;
+    private LinearLayout linear;
     private Question currentQuestion;
     private int point;
     private Timer timer;
@@ -62,6 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         pointTextView = findViewById(R.id.textView_main_point);
         remainingTimeTextView = findViewById(R.id.textView_main_remainingTime);
         Button exitButton = findViewById(R.id.button_main_exit);
+        linear = findViewById(R.id.linear);
         exitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -89,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startBtn.setOnStartButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                linear.setVisibility(View.VISIBLE);
                 AlphaAnimation alphaAnimation = new AlphaAnimation(1f, 0f);
                 alphaAnimation.setDuration(300);
                 alphaAnimation.setAnimationListener(new Animation.AnimationListener() {
