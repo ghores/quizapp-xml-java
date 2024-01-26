@@ -34,17 +34,17 @@ public class QuestionManager {
 
     }
 
-    private void parseJson(String json){
+    private void parseJson(String json) {
         try {
-            JSONArray questionsJsonArray=new JSONArray(json);
+            JSONArray questionsJsonArray = new JSONArray(json);
             JSONObject questionJsonObject;
             for (int i = 0; i < questionsJsonArray.length(); i++) {
-                questionJsonObject=questionsJsonArray.getJSONObject(i);
-                Question question=new Question();
+                questionJsonObject = questionsJsonArray.getJSONObject(i);
+                Question question = new Question();
                 question.setAnswer(questionJsonObject.getInt("answer"));
                 question.setQuestion(questionJsonObject.getString("question"));
-                List<String> options=new ArrayList<>();
-                JSONArray optionsJsonArray=questionJsonObject.getJSONArray("options");
+                List<String> options = new ArrayList<>();
+                JSONArray optionsJsonArray = questionJsonObject.getJSONArray("options");
                 for (int j = 0; j < optionsJsonArray.length(); j++) {
                     options.add(optionsJsonArray.getString(j));
                 }
@@ -56,27 +56,27 @@ public class QuestionManager {
         }
     }
 
-    public Question getQuestion(){
+    public Question getQuestion() {
         if (questions.isEmpty()) return null;
 
-        int position=0;
-        while (isAskedBefore(position)){
+        int position = 0;
+        while (isAskedBefore(position)) {
             position++;
         }
         askedQuestions.add(position);
         return questions.get(position);
     }
 
-    private List<Integer> askedQuestions=new ArrayList<>();
+    private List<Integer> askedQuestions = new ArrayList<>();
 
-    private boolean isAskedBefore(int position){
-        if (askedQuestions.size()==questions.size()){
+    private boolean isAskedBefore(int position) {
+        if (askedQuestions.size() == questions.size()) {
             askedQuestions.clear();
         }
-        if (askedQuestions.size()==questions.size()-1){
-            finishAnswer=true;
-        }else {
-            finishAnswer=false;
+        if (askedQuestions.size() == questions.size() - 1) {
+            finishAnswer = true;
+        } else {
+            finishAnswer = false;
         }
         return askedQuestions.contains(position);
     }

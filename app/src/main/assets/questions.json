@@ -2,10 +2,10 @@
   {
     "question": "1.‘Good morning everybody.’",
     "options": [
-      "‘Goodbye.’",
-      "‘Hi.’",
-      "‘Take care.’",
-      "‘See you tomorrow.’"
+      "Goodbye.",
+      "Hi.",
+      "Take care.",
+      "See you tomorrow."
     ],
     "answer": 1
   },

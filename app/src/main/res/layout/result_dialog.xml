@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frame_resultDialog"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple_500"
     android:visibility="gone"
-    tools:visibility="visible"
-    android:background="@color/purple_500">
+    tools:visibility="visible">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_gravity="center_vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView_gameResultDialog_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:textSize="20dp"
+            android:gravity="center"
             android:padding="8dp"
             android:textColor="@android:color/white"
-            tools:text="Not Bad"
-            android:gravity="center"/>
+            android:textSize="20dp"
+            tools:text="Not Bad" />
+
         <LinearLayout
 
             android:layout_width="wrap_content"
@@ -39,14 +39,14 @@
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/white"
                 android:textSize="60dp"
-                tools:text="90"/>
+                tools:text="90" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/white"
                 android:textSize="14dp"
-                tools:text="Points"/>
+                tools:text="Points" />
         </LinearLayout>
 
         <TextView
@@ -55,26 +55,26 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="60dp"
             android:textColor="@android:color/holo_orange_light"
-            tools:text="Best Record : 100 points"/>
+            tools:text="Best Record : 100 points" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
-            android:text="Do you want to start again?"/>
+            android:text="Do you want to start again?"
+            android:textColor="@android:color/white" />
 
         <com.example.quizgame.StartBtn
             android:id="@+id/startButton_gameResultDialog"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/button_gameResultDialog_exit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
             android:background="@drawable/bg_exit_btn"
-            android:text="Exit"/>
+            android:text="Exit"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 

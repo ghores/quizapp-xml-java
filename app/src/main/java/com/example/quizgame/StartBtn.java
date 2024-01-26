@@ -64,8 +64,10 @@ public class StartBtn extends FrameLayout {
     }
 
     public void setOnStartClickListener(OnClickListener onClickListener) {
-
         startBtn.setOnClickListener(onClickListener);
+    }
 
+    public void setOnStartButtonClickListener(OnClickListener onClickListener) {
+        startBtn.setOnClickListener(onClickListener);
     }
 }
